@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    background-color: #e96acd;
+    display: flex;
+    gap: 20px;
+    grid-gap: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    grid-gap: 10px;
+}
+
+.menu__item a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu__item.active a {
+    text-decoration: underline double;
+}
+
+.imagenPrincipal {
+    height: 80vh;
+    background-image: url("../img/paisaje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+}
+
+.imagenPrincipal h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding-inline: 15px;
+}
+
+.imagenPrincipal p {
+    color: white;
+    text-align: center;
+}
+
+.tarjetitas {
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.tarjetita {
+    background-color: #e96acd;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.informacion {
+    padding: 0 20px 20px 20px;
+}
+
+.tarjetita__imagen {
+    max-width: 100%;
+}
+
+.pie {
+    background-color: #e96acd;
+    color: white;
+    padding-block: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjetitados {
+    flex: 1.5;
+}
